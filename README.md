@@ -1,45 +1,70 @@
-# React Freeshelf
+# Getting Started with Create React App
 
-## Directions
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Your project is to build a single-page application that displays books using React. You should use `create-react-app` to create the application and build up from there.
+## Available Scripts
 
-The finished product will look like the included wireframe. When the information for that book is clicked, the section expands to show additional information about the book. When it is clicked again, it should collapse back to the original view. This behavior is commonly referred to as a disclosure, as described in [this ARIA practices document with examples](https://www.w3.org/TR/wai-aria-practices-1.1/#disclosure).
+In the project directory, you can run:
 
-The page should display a list of books with a thumbnail display of information for each book, including:
+### `npm start`
 
-+ title
-+ author
-+ short description
-+ image of the book's cover
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The additional information shown in the expanded view should include:
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-+ URL
-+ publisher
-+ publication date
-+ expanded description
+### `npm test`
 
-Note that you will need to handle cases where not all the data is available. In these cases, make sure your UI design can accommodate missing or problematic data and/or supply placeholder images or text so that your page won't look broken without it.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The books are held in [books.json](books.json). Create React App makes it so that you can import this file and retrieve the data like so:
+### `npm run build`
 
-```
-import books from './books.json'
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Wireframe
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![Wireframe](freeshelf-wireframe.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Rubric
+### `npm run eject`
 
-- *Completion*
-  - 1 (Unsatisfactory): does not show all information or does not show/hide information
-  - 2 (Satisfactory): meets all requirements under "Directions". Shows all books and shows/hides their extra information
-  - 3 (Exemplary): meets all requirements, is nicely styled, uses the `aria-expanded` attribute
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- *React Usage*
-  - 1 (Unsatisfactory): uses DOM manipulation or HTML directly to show and hide information
-  - 2 (Satisfactory): uses JSX, conditional rendering, and state to show and hide information
-  - 3 (Exemplary): breaks application into multiple components in a useful way
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
